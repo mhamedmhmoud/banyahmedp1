@@ -1,0 +1,74 @@
+/* ≈⁄œ«œ«  √”«”Ì… */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 1em;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#scheduleTable, #homeworkList, #messageBox {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+#messageInput {
+    width: calc(100% - 60px);
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
